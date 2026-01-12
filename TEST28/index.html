@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>28劉庭蓁</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(47, 207, 146);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #10ee22;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #464ec0;
+  height: 800px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #e8ffa82d;
+  padding: 10px;
+  text-align: center;
+  color: rgb(5, 29, 250);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2><span style="color:rgb(113, 52, 182);">電子商務</h2></span>
+
+
+<header>
+  <h2>南投高中</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="introduce.html">特色介紹頁</a></li>
+      <li><a href="about.html">關於我們</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>電子商務科</h1>
+    <p><span style="color:rgba(7, 230, 155, 0.637);">掌握數位趨勢，行銷電商未來。</p></span>
+<p><span style="color:rgb(116, 180, 33);">電子商務科致力於培養具備網路行銷、</span>
+  <span style="color:rgb(98, 199, 194);">網頁設計與數據分析能力的專業人才。</span>
+  <span style="color:rgb(144, 232, 235);">課程涵蓋電子商務經營實務、多媒體應用與社群操作，
+      <span style="color:rgb(49, 197, 197);">旨在讓學生掌握虛擬通路的運作邏輯，成為數位轉型時代下的職場即戰力。</span></p>
+    <p><img style="width:100%;" src="images/1.png"alt=""></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+  <p>©版權所有南投高中電子商務科學生劉庭蓁.轉載請註明出處!</p>
+</footer>
+
+</body>
+</html>
+
