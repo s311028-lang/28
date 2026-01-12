@@ -1,15 +1,114 @@
-<title>關於我</title>
-<body align="center">
-    <h1 style="color:rgb(230, 124, 25);"></h1style>關於我自己</h1>
-    <p style="color:rgb(139, 159, 202);"></pstyle>我是電子商務的學生</p>
-    <p style="color:rgb(202, 102, 102);"></pstyle>我叫劉庭蓁</p>
-    <p style="color:rgb(141, 168, 18);"></pstyle>我的興趣是運動</p>
-    <img style="width:30%;"src="3.jpg">
-    <p style="color:rgb(95, 132, 252);"></pstyle>在電商最喜歡的科目是數學</p>
-    <p style="color:rgb(187, 70, 24);"></pstyle>我也在電商認識了很多人</p>
-    <p style="color:rgb(142, 160, 43);"></pstyle>這是我們辦的迎新</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>28劉庭蓁</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <img style="width:70%;"src="2.jpg">
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    <p><a href="http://127.0.0.1:5500/index.html">我的校園</a></p>
-    <p><a href="http://127.0.0.1:5500/introduce.html">特色介紹頁</a></p>
+/* Style the header */
+header {
+  background-color: #6392cf;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(19, 173, 84);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #28ca66;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #99b2cf;
+  height: 1150px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #2172922d;
+  padding: 10px;
+  text-align: center;
+  color: rgb(143, 190, 80);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2><span style="color:rgb(113, 52, 182);">電子商務</h2></span>
+<p><span style="color:rgb(60, 58, 168);">掌握數位趨勢，行銷電商未來。</p></span>
+<p><span style="color:rgb(138, 182, 218);">生日及星座:02/16水瓶座</span>
+  <span style="color:hsl(202, 55%, 58%);">畢業學校:南崗國中</span>
+  <span style="color:rgb(90, 159, 216);">個人特色亮點:樂觀
+  <span style="color:rgb(49, 141, 216);">期待:不要缺太多學分</span></p>
+
+<header>
+  <h2>南投高中</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="introduce.html">特色介紹頁</a></li>
+      <li><a href="about.html">關於我們</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>電商二 28 劉庭蓁</h1>
+    <p><span style="color:rgb(250, 250, 250);">這是我第一次學習用程式碼設網站，
+      中間有遇到很多次不會打程式，但都一一破解了，
+      學會之後就得心應手了。
+    </p></span>
+    <p><img style="width:80%;" src="3.jpg"alt="這是我"></p>
+    <p><span style="color:rgb(255, 255, 255);">這次的網站有用到很多老師教過的東西，例如：超連接、顏色、圖片、大小</p></span>
+    <p></p>
+    <p></p>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+  <p>©版權所有南投高中電子商務科學生劉庭蓁.轉載請註明出處!</p>
+</footer>
+
+</body>
+</html>
+

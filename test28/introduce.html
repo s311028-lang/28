@@ -1,31 +1,112 @@
-<title>特色介紹頁</title>
-<body align="center"></body>
-    <h1>南投高中所包含的科系</h1>
-    <h2>普通科</h2>
-    <p style="color:rgb(30, 116, 173);">普通科:
-        國文科
-        英文科
-        數學科
-        自然科
-        社會科
-        藝能科</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>28劉庭蓁</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    <h3>職業類科</h3>
-    <p style="color:rgb(230, 172, 14);"> 職業科:
-        建築科
-        美工科
-        電腦機械製圖科
-        電子商務科
-        電子科
-        電機科
-        應用英語科</p>
-<h1>特色</h1>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<p style="color:rgb(42, 187, 168);"></pstyle>資訊設備完善，
-師資陣容堅強，
-課程多樣化、
-教學設備全e化，</p> 
+/* Style the header */
+header {
+  background-color: #b41818;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(107, 192, 241);
+}
 
-<img style="width:50%;"src="下載.jpg">
-<p><a href="http://127.0.0.1:5500/about.html">關於我</a></p>
-<p><a href="http://127.0.0.1:5500/index.html">我的校園</a></p>
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #aaabd6;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #1bcf7b;
+  height: 2300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #e8ffa82d;
+  padding: 10px;
+  text-align: center;
+  color: rgb(250, 205, 5);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2><span style="color:rgb(113, 52, 182);">電子商務</h2></span>
+<p><span style="color:rgb(60, 58, 168);">掌握數位趨勢，行銷電商未來。</p></span>
+<p><span style="color:rgb(216, 122, 122);">本學科師資群具備產業實務與學術深度，</span>
+  <span style="color:rgb(207, 98, 98);">涵蓋網路行銷、大數據分析與數位設計專長。</span>
+      <span style="color:rgb(206, 9, 9);">輔導學生考取國際證照，建立從校園銜接職場的優質教學環境。</span></p>
+
+<header>
+  <h2>南投高中</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">首頁</a></li>
+      <li><a href="introduce.html">特色介紹頁</a></li>
+      <li><a href="about.html">關於我們</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>教學資源</h1>
+    <p><span style="color:rgb(255, 255, 255);">多樣化的教學資源，增加了學生學習上的便利，減少了不必要的時間。</p></span>
+    <p><img style="width:50%;" src="1.jpg"alt="教學資源"></p>
+    <h1>教師教學平台</h1>
+    <p><span style="color:rgb(255, 255, 255);">各科獨自的教學資源檔案，省去了很多麻煩，讓教學效率大大提升。</p></span>
+    <p><img style="width:50%;" src="2.jpg"alt="教師教學平台"></p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </article>
+</section>
+
+<footer>
+  <p>©版權所有南投高中電子商務科學生賈千葵.轉載請註明出處!</p>
+</footer>
+
+</body>
+</html>
+
